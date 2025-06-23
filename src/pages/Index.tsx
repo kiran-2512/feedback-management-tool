@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { getCurrentUser } from "@/lib/auth";
+import { getCurrentUser} from "@/lib/auth";
 
 const Index = () => {
   const navigate = useNavigate();
